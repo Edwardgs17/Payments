@@ -1,0 +1,19 @@
+image: 'node:10-stretch'
+pipelines:
+  default:
+    - step:
+        caches:
+          - node
+        script:
+          - npm install
+          - ./node_modules/eslint/bin/eslint.js .
+        services:
+          - postgres
+definitions:
+  services:
+    postgres:
+      image: postgres
+      environment:  
+        POSTGRES_USER: 'foo'
+        POSTGRES_PASSWORD: 'secret'
+        POSTGRES_DB: 'projects'
