@@ -20,7 +20,7 @@
     "bluebird": "^3.7.2",
     "express": "^4.17.1",
     "knex": "^0.20.4",
-    "log4js": "^6.1.0",
+    "log4js": "^6.4.0",
     "mock-knex": "^0.4.7",
     "moment-timezone": "^0.5.27",
     "morgan": "^1.9.1",
