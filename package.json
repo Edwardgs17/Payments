@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ajv": "^6.10.2",
+    "ajv": "^6.12.3",
     "assert": "^2.0.0",
     "async": "^3.1.0",
     "bluebird": "^3.7.2",
